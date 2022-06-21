@@ -1,0 +1,5 @@
+build/
+package-lock.json
+report.html
+tsconfig.json
+node_modules/
