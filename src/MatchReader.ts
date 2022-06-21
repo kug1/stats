@@ -27,7 +27,7 @@ export class MatchReader {
           row[2],
           parseInt(row[3]),
           parseInt(row[4]),
-          row[5] as MatchResult, // Type assertion. TS trusts that it'll be one of these three types (or how many there is) 'H', 'A', 'D'
+          row[5] as MatchResult, // Type assertion. TS trusts that it'll be one of the types provided, in this case, 'H', 'A', 'D'.
           row[6]
         ];
       }
